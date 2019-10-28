@@ -4,8 +4,21 @@
   "description": "an application of auto marketing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    
+    "start": "concurrently \"cd backend && node server.js\" \"cd client && npm start\""
   },
   "author": "judy",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JudyZLF/Marketer.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/JudyZLF/Marketer/issues"
+  },
+  "homepage": "https://github.com/JudyZLF/Marketer#readme",
+  "dependencies": {
+    "concurrently": "^5.0.0"
+  }
 }
