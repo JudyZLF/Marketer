@@ -1,0 +1,11 @@
+{
+  "name": "marketer",
+  "version": "1.0.0",
+  "description": "an application of auto marketing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "judy",
+  "license": "ISC"
+}
