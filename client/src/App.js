@@ -6,6 +6,7 @@ function App() {
   return (
     <div>
       use the back end !
+      {process.env.NODE_ENV}
     </div>
   );
 }
